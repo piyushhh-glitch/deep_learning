@@ -1,18 +1,38 @@
-# deep_learning
+# 🧠 Deep Learning
 
-🧠
-
-Documenting my journey of learning and building Deep Learning models using PyTorch. Covers ANN, CNN, RNN, GANs, Computer Vision, Transfer Learning.
+This repository documents my journey of learning Deep Learning with PyTorch through hands-on implementations and mini projects.
 
 ## ANN
 
-Artificial Neural Networks (ANNs) are the foundation of Deep Learning. They learn patterns from data using interconnected neurons and are commonly used for regression and classification tasks.
+Artificial Neural Networks are used for regression and classification tasks. This section contains beginner-friendly implementations to understand the fundamentals of deep learning.
 
 ## CNN
 
-Convolutional Neural Networks (CNNs) are designed for image data. They automatically extract features using convolution and pooling layers, making them highly effective for computer vision tasks like image classification.
+Convolutional Neural Networks are designed for image-based tasks. The projects focus on image classification using custom CNN architectures.
 
-## Project Structure
+## RNN
+
+Recurrent Neural Networks are used for sequential data. This section includes a sentiment analysis mini project using the IMDB movie reviews dataset.
+
+---
+
+## 📂 Mini Projects
+
+### 🔹 ANN
+- Neural Network from Scratch
+- ANN for Regression
+- ANN for Classification
+
+### 🔹 CNN
+- CNN for Cats vs Dogs Classification
+- CNN for CIFAR-10 Image Classification
+
+### 🔹 RNN
+- RNN for IMDB Sentiment Analysis
+
+---
+
+## 📁 Project Structure
 
 ```text
 deep_learning/
@@ -28,15 +48,26 @@ deep_learning/
 ├── CNN/
 │   ├── Cats_&_Dogs/
 │   │   ├── data/
-│   │   │   └── PetImages/
-│   │   │       ├── Cat/
-│   │   │       └── Dog/
 │   │   └── CNN_For_Cats&Dogs.ipynb
 │   │
-│   ├── CIFAR10/
-│   │   ├── data/
-│   │   │   └── cifar-10-batches-py/
-│   │   └── CNN_For_CIFAR10.ipynb
+│   └── CIFAR10/
+│       ├── data/
+│       └── CNN_For_CIFAR10.ipynb
+│
+├── RNN/
+│   ├── IMDB Dataset.csv
+│   └── Sentiment_Analysis.ipynb
 │
 └── README.md
 ```
+
+---
+
+## 🛠️ Technologies
+
+- Python
+- PyTorch
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
