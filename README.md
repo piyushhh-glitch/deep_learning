@@ -12,7 +12,7 @@ Convolutional Neural Networks are designed for image-based tasks. The projects f
 
 ## RNN
 
-Recurrent Neural Networks are used for sequential data. This section includes a sentiment analysis mini project using the IMDB movie reviews dataset.
+Recurrent Neural Networks are designed for sequential data. This section includes sentiment analysis using the IMDB movie reviews dataset and handwritten digit classification.
 
 ---
 
@@ -29,6 +29,7 @@ Recurrent Neural Networks are used for sequential data. This section includes a 
 
 ### 🔹 RNN
 - RNN for IMDB Sentiment Analysis
+- Handwritten Digit Classification
 
 ---
 
@@ -55,8 +56,10 @@ deep_learning/
 │       └── CNN_For_CIFAR10.ipynb
 │
 ├── RNN/
+│   ├── data/
 │   ├── IMDB Dataset.csv
-│   └── Sentiment_Analysis.ipynb
+│   ├── Sentiment_Analysis.ipynb
+│   └── HandwrittenDigitClassification.ipynb
 │
 └── README.md
 ```
