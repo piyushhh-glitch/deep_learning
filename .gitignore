@@ -1,0 +1,12 @@
+# Hugging Face Trainer checkpoints
+Transformer/results/
+
+# Trained model
+Transformer/saved_summary_model
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
