@@ -1,35 +1,59 @@
 # 🧠 Deep Learning
 
-This repository documents my journey of learning Deep Learning with PyTorch through hands-on implementations and mini projects.
+This repository documents my journey of learning **Deep Learning with PyTorch** through hands-on implementations, experiments, and projects.
 
-## ANN
-
-Artificial Neural Networks are used for regression and classification tasks. This section contains beginner-friendly implementations to understand the fundamentals of deep learning.
-
-## CNN
-
-Convolutional Neural Networks are designed for image-based tasks. The projects focus on image classification using custom CNN architectures.
-
-## RNN
-
-Recurrent Neural Networks are designed for sequential data. This section includes sentiment analysis using the IMDB movie reviews dataset and handwritten digit classification.
+The repository covers fundamental deep learning concepts including **ANNs, CNNs, RNNs, Activation Functions, and Transformers**.
 
 ---
 
-## 📂 Mini Projects
+## 📚 Topics Covered
+
+### 🔹 Activation Functions
+
+This section contains implementations and experiments with commonly used activation functions:
+
+- ReLU
+- Sigmoid
+- Softmax
+- Tanh
+
+---
 
 ### 🔹 ANN
+
+Artificial Neural Networks are used for regression and classification tasks. This section contains implementations to understand the fundamentals of neural networks.
+
 - Neural Network from Scratch
 - ANN for Regression
 - ANN for Classification
 
+---
+
 ### 🔹 CNN
+
+Convolutional Neural Networks are designed for image-based tasks. The projects focus on image classification using custom CNN architectures.
+
 - CNN for Cats vs Dogs Classification
 - CNN for CIFAR-10 Image Classification
 
+---
+
 ### 🔹 RNN
-- RNN for IMDB Sentiment Analysis
+
+Recurrent Neural Networks are designed for sequential data. This section contains implementations for:
+
+- IMDB Sentiment Analysis
 - Handwritten Digit Classification
+
+---
+
+### 🔹 Transformer
+
+This section explores Transformer-based architectures and their application to Natural Language Processing.
+
+- Text Summarization
+- SAMSum Dataset
+- Transformer-based Text Summarization Model
 
 ---
 
@@ -37,6 +61,12 @@ Recurrent Neural Networks are designed for sequential data. This section include
 
 ```text
 deep_learning/
+│
+├── Activation_Functions/
+│   ├── ReLU.ipynb
+│   ├── Sigmoid.ipynb
+│   ├── softmax.ipynb
+│   └── tanh.ipynb
 │
 ├── ANN/
 │   ├── neuron.ipynb
@@ -61,6 +91,16 @@ deep_learning/
 │   ├── Sentiment_Analysis.ipynb
 │   └── HandwrittenDigitClassification.ipynb
 │
+├── Transformer/
+│   ├── dataset/
+│   │   ├── samsum-test.csv
+│   │   └── samsum-validation.csv
+│   │
+│   ├── results/
+│   ├── saved_summary_model/
+│   └── text_summarizer.ipynb
+│
+├── .gitignore
 └── README.md
 ```
 
@@ -74,3 +114,5 @@ deep_learning/
 - Pandas
 - Matplotlib
 - Scikit-learn
+- Transformers
+- Hugging Face
