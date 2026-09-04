@@ -10,3 +10,5 @@ Transformer/saved_summary_model
 # Python cache
 __pycache__/
 *.pyc
+
+API's/.env
