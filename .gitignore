@@ -12,3 +12,5 @@ __pycache__/
 *.pyc
 
 API's/.env
+
+GAN/img_align_celeba/
