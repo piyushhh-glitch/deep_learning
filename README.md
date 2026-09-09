@@ -2,7 +2,7 @@
 
 This repository documents my journey of learning **Deep Learning with PyTorch** through hands-on implementations, experiments, and projects.
 
-The repository covers fundamental deep learning concepts including **ANNs, CNNs, RNNs, Activation Functions, and Transformers**.
+The repository covers fundamental deep learning concepts including **ANNs, CNNs, RNNs, GANs, Activation Functions, and Transformers**.
 
 ---
 
@@ -47,6 +47,16 @@ Recurrent Neural Networks are designed for sequential data. This section contain
 
 ---
 
+### 🔹 GAN
+
+Generative Adversarial Networks are used for generating new data samples. This section contains implementations of:
+
+- Vanilla GAN
+- DCGAN
+- CelebA Dataset
+
+---
+
 ### 🔹 Transformer
 
 This section explores Transformer-based architectures and their application to Natural Language Processing.
@@ -54,6 +64,14 @@ This section explores Transformer-based architectures and their application to N
 - Text Summarization
 - SAMSum Dataset
 - Transformer-based Text Summarization Model
+
+---
+
+### 🔹 APIs
+
+This section contains experiments with APIs and their integration with Python applications.
+
+- Gemini API
 
 ---
 
@@ -69,21 +87,26 @@ deep_learning/
 │   └── tanh.ipynb
 │
 ├── ANN/
-│   ├── neuron.ipynb
-│   ├── ANN_Regression.ipynb
 │   ├── ANN_Classification.ipynb
-│   ├── powerplant_data.csv
+│   ├── ANN_Regression.ipynb
 │   ├── DateFruit_Dataset.csv
+│   ├── neuron.ipynb
+│   ├── powerplant_data.csv
 │   └── best_model.pt
+│
+├── Api's/
+│   ├── .env
+│   ├── Gemini.ipynb
+│   └── image.png
 │
 ├── CNN/
 │   ├── Cats_&_Dogs/
-│   │   ├── data/
-│   │   └── CNN_For_Cats&Dogs.ipynb
-│   │
 │   └── CIFAR10/
-│       ├── data/
-│       └── CNN_For_CIFAR10.ipynb
+│
+├── GAN/
+│   ├── img_align_celeba/
+│   ├── DCGAN.ipynb
+│   └── vanilla_gan.ipynb
 │
 ├── RNN/
 │   ├── data/
@@ -93,26 +116,9 @@ deep_learning/
 │
 ├── Transformer/
 │   ├── dataset/
-│   │   ├── samsum-test.csv
-│   │   └── samsum-validation.csv
-│   │
 │   ├── results/
 │   ├── saved_summary_model/
 │   └── text_summarizer.ipynb
 │
 ├── .gitignore
 └── README.md
-```
-
----
-
-## 🛠️ Technologies
-
-- Python
-- PyTorch
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- Transformers
-- Hugging Face
